@@ -108,7 +108,6 @@ const Navbar = () => {
         ))}
       </div>
 
-      {/* Right Actions: Theme Toggle & Resume (Desktop) */}
       <div className="hidden md:flex items-center gap-4">
         <button 
           onClick={toggleTheme}
@@ -119,9 +118,8 @@ const Navbar = () => {
         </button>
 
         <a 
-          href="/resume.pdf" 
-          target="_blank" 
-          rel="noopener noreferrer"
+          href="/resume.pdf" download
+
           className="px-6 py-2.5 text-sm rounded-xl border border-gray-300 dark:border-gray-700 text-gray-900 dark:text-gray-200 hover:-translate-y-1 hover:border-[#5951D0] hover:text-[#5951D0] transition-all duration-300"
         >
           Resume
